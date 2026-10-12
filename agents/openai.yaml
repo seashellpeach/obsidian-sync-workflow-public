@@ -1,0 +1,6 @@
+interface:
+  display_name: "Obsidian 同步流程設定"
+  short_description: "帶我選擇來源資料夾、Obsidian 存放位置並設定同步"
+  default_prompt: "請用 $obsidian-sync-workflow 幫我設定同步。我是新手，請先確認要同步哪個資料夾，再幫我選 Obsidian Vault 和存放位置；用白話推薦同步內容，並主動建議每次完成並確認專案成果時同步，也提供里程碑或手動同步選項。排除日常問答、未完成草稿和整段對話；等我確認完整方案後再設定，之後沿用本專案規則，不要每次重問。"
+policy:
+  allow_implicit_invocation: true
