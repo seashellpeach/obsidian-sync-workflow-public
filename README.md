@@ -16,6 +16,14 @@
 
 你不必先懂技術名詞，也不用自己規劃檔案清單。你可以說「我不確定，請推薦」，或直接描述想保留哪些內容。若目前介面無法選擇資料夾或確認 Vault，Skill 會一步步告訴你怎麼找到；它不會為了找資料而掃描整台電腦。
 
+## 先準備 Obsidian
+
+Obsidian 是用來建立和整理筆記的軟體，可以從[官方下載頁](https://obsidian.md/download)下載安裝。
+
+Vault（筆記庫）是 Obsidian 存放筆記和附件的資料夾。第一次使用時，可以在 Obsidian 裡建立新的 Vault；如果你已經有在用 Obsidian，就選擇現有的 Vault。[Vault 是什麼？](https://obsidian.md/help/vault)
+
+這份 Skill 會把你確認的專案檔案複製到 Vault 裡指定的位置。它需要目前使用的 Codex 或 Claude 能讀取專案資料夾並寫入 Vault；不會替你設定 Obsidian Sync 或跨裝置同步。
+
 ## 安裝 Skill
 
 ### Codex
