@@ -26,9 +26,9 @@
 
 ### Claude
 
-下載 [Claude 安裝檔](downloads/obsidian-sync-workflow-claude.zip)，在 Claude 開啟 **自訂（Customize）→ Skills → ＋ → Create skill → Upload a skill**，選擇下載的 ZIP，再把這份 Skill 開啟。
+下載 [Claude 安裝檔](downloads/obsidian-sync-workflow-claude.zip)，在 Claude 開啟自訂（Customize）→ Skills → ＋ → Create skill → Upload a skill，選擇下載的 ZIP，再把這份 Skill 開啟。
 
-如果 Claude 裡沒有 Skills 選項，先到 **Settings → Capabilities** 開啟 **Code execution and file creation**。學校或機構帳號若仍看不到上傳選項，請詢問帳號管理者。[Claude Skills 官方說明](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
+如果 Claude 裡沒有 Skills 選項，先到 Settings → Capabilities 開啟 Code execution and file creation。學校或機構帳號若仍看不到上傳選項，請詢問帳號管理者。[Claude Skills 官方說明](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
 
 ## 開始使用
 
@@ -50,18 +50,14 @@ Codex 也可以直接輸入 `$obsidian-sync-workflow` 開始。Claude 會依照�
 
 ## 同步方式與限制
 
-- **單向複製：**從你選定的來源資料夾複製到 Vault。來源是原始檔，Obsidian 存放閱讀用副本；不會雙向合併變更。
-- **只複製你確認的檔案：**不會把整個資料夾的內容全部搬進 Obsidian。
-- **衝突時停止：**若來源不見、權限不足，或 Obsidian 裡的副本被另外修改，工具會停止並回報，不會自行覆寫或刪除檔案。
-- **依專案規則同步：**首次設定後，完成符合條件的專案成果時會沿用已確認規則，不必每次再確認。單純結束對話不會觸發同步；日常問答、草稿和整段對話也不會自動同步。
-- **會維護索引頁：**同步工具會在 Vault 內建立並更新一頁索引，設定前會把位置和名稱列給你確認。
-- **安裝後不用找資料夾放 Skill：**下載後直接依上面的方式安裝即可。完成同步設定時，Skill 會把同步設定保存在你選的專案資料夾旁，不用另外搬動設定檔。
-- **如果目前無法讀寫資料夾：**Skill 會先告訴你狀況，不會假裝已完成同步。同步工具需要 Python 3.9 或更新版本，不需另外安裝套件。
+- 單向複製：從你選定的來源資料夾複製到 Vault。來源是原始檔，Obsidian 存放閱讀用副本；不會雙向合併變更。
+- 只複製你確認的檔案：不會把整個資料夾的內容全部搬進 Obsidian。
+- 衝突時停止：若來源不見、權限不足，或 Obsidian 裡的副本被另外修改，工具會停止並回報，不會自行覆寫或刪除檔案。
+- 依專案規則同步：首次設定後，完成符合條件的專案成果時會沿用已確認規則，不必每次再確認。單純結束對話不會觸發同步；日常問答、草稿和整段對話也不會自動同步。
+- 維護索引頁：同步工具會在 Vault 內建立並更新一頁索引，設定前會把位置和名稱列給你確認。
+- 安裝後不用找資料夾放 Skill：下載後直接依上面的方式安裝即可。完成同步設定時，Skill 會把同步設定保存在你選的專案資料夾旁，不用另外搬動設定檔。
+- 如果目前無法讀寫資料夾：Skill 會先告訴你狀況，不會假裝已完成同步。同步工具需要 Python 3.9 或更新版本，不需另外安裝套件。
 
 ## 授權
 
-本 Skill 採用自訂的[限制性非商業使用授權](LICENSE.md)：允許非商業的個人、教學與研究用途，可閱讀、下載、安裝、執行，也可保留安裝和使用所需的副本；不允許商業使用、修改或散布 Skill 檔案。要分享時，請分享原始 GitHub repository 網址。
-
-**公開 GitHub 的限制：**GitHub 規定公開 repository 的使用者可以在 GitHub 站內檢視及 fork。這份自訂授權不會移除 GitHub 服務條款已授予的站內檢視與 fork 權利，也不代表授權在 GitHub 以外修改或散布檔案。若你不能接受任何站內 fork，就不適合把 repository 設為公開。
-
-這是自訂授權，不是 MIT 等標準授權；GitHub 不一定會將它辨識為標準授權類別。更多說明見 [GitHub：為 repository 選擇授權](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository) 與 [GitHub 服務條款](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service)。
+本 Skill 採限制性非商業使用授權，供非商業的個人、教學與研究用途使用。完整使用條件請閱讀 [LICENSE.md](LICENSE.md)。
